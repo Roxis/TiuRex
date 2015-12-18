@@ -1,48 +1,52 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-blue.css">
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-<body style="max-width:600px">
-
-<header class="w3-container w3-card-4 w3-theme">
-  <h1>
-  <i class="w3-opennav fa fa-bars" onclick="w3_open()"></i>
-  Roxis Raster
-  </h1>
+<head>
+	<title>Tiu Rex Adventures</title>
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-light-blue.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <div class="w3-center">
+  <h4>TBC PRESENTS</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">TIU REX</h1>
+  <h4>ADVENTURES<br></h4>
+    <div class="w3-padding-32">
+      </div>
+  </div>
 </header>
-
-<nav class="w3-sidenav w3-card-2 w3-white" style="width:30%;display:none">
-<div class="w3-container w3-theme-d2">
-  <span onclick="w3_close()" class="w3-closenav w3-right w3-xlarge">x</span>
-  <br>
-  <div class="w3-padding w3-center">
-    <img class="w3-circle" src="img_avatar.jpg" alt="avatar" style="width:75%">
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-half">
+  <div class="w3-card-2 w3-padding-top" style="min-height:460px">
+  <h4>Classic</h4><br>
+  <i class="material-icons" style="font-size:120px">terrain</i>
+  <p>Jump and run to get the best score!</p>
+  <h6>JavaScript</h6>
+  <p>Mobile Version in Dev!</p>
+   <button class="w3-btn w3-xlarge w3-theme-dark" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">PLAY</button>
   </div>
 </div>
-<br>
-<a href="#">Movies</a>		
-<a href="#">Friends</a>		
-<a href="#">Messages</a>		
-</nav>
 
-<div class="w3-container">
-<hr>
-
-
-<footer class="w3-container w3-theme w3-margin-top">
-  <h3>Footer</h3>
-</footer>
-
-<script>
-function w3_open() {
-    var x = document.getElementsByClassName("w3-sidenav")[0];
-    x.style.display = "block";
-}
-function w3_close() {
-    var x = document.getElementsByClassName("w3-sidenav")[0];
-    x.style.display = "none";
-}
-</script>
+<div class="w3-half">
+  <div class="w3-card-2 w3-padding-top" style="min-height:460px">
+  <h4>Shooter</h4><br>
+  <i class="fa fa fa-space-shuttle" style="font-size:120px"></i>
+  <p>In Dev!</p>
+  </div>
+</div>
+<!--
+<div class="w3-third">
+  <div class="w3-card-2 w3-padding-top" style="min-height:460px">
+  <h4>Material Design</h4><br>
+  <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <p>Paper like design</p>
+  <p>Bold colors and shadows</p>
+  <p>Equal across platforms</p>
+  <p>Equal across devices</p>
+  </div> -->
+</div>
+</div>
 </body>
+</html>
